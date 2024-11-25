@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryptography | Hugo Academic CV Theme</title><link>https://example.com/tags/cryptography/</link><atom:link href="https://example.com/tags/cryptography/index.xml" rel="self" type="application/rss+xml"/><description>Cryptography</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu7729264130191091259.png</url><title>Cryptography</title><link>https://example.com/tags/cryptography/</link></image><item><title>RISecure-PUF: Multipurpose PUF-Driven Security Extensions with Lookaside Buffer in RISC-V</title><link>https://example.com/publication/2410-risecure-puf/</link><pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/2410-risecure-puf/</guid><description>&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">This paper is still under submission.&lt;/span>
+&lt;/div>
+&lt;!--
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --></description></item><item><title>2024 Cryptography Summer Camp</title><link>https://example.com/event/2406-crypto-summer-camp/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://example.com/event/2406-crypto-summer-camp/</guid><description>&lt;p>本项目为面向上海大学网络空间安全专业 2022 级本科生的暑期实训课程.&lt;/p>
+&lt;p>主要内容包括：&lt;/p>
+&lt;ol>
+&lt;li>密码学介绍&lt;/li>
+&lt;li>近世代数和数论基础&lt;/li>
+&lt;li>textbook RSA 相关攻击方法&lt;/li>
+&lt;li>Challenges&lt;/li>
+&lt;/ol>
+&lt;p>本期课程相较于往年课程内容差异不大, 重点增加了学习方法和现代密码学技术概要, 旨在让同学们基本了解密码学相关的技术现状, 以及 CTF 中密码学基础的知识.&lt;/p>
+&lt;p>网络空间安全是一个非常&lt;strong>注重实践&lt;/strong>的学科, 请一定&lt;strong>独立完成&lt;/strong>课后的实验部分. 请在课程结束后仔细阅读&lt;a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md" target="_blank" rel="noopener">《提问的智慧》&lt;/a>和&lt;a href="https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md" target="_blank" rel="noopener">《别像弱智一样提问》&lt;/a>这两篇文章, 理解 STFW, RTFM, RTFSC 的内涵.&lt;/p>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary class="cursor-pointer">👉 为什么要强调提问？&lt;/summary>
+&lt;div class="rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2">
+&lt;p>对于经常&lt;strong>寻求帮助&lt;/strong>的同学.&lt;/p>
+&lt;p>你是否考虑过, 当你进入公司或学校课题组时, 可能会遇到需要独自解决技术问题的情况? 你的同事或师兄师姐也有自己的任务, 不一定有时间帮助你. 若缺乏独立解决问题的能力, 你可能会陷入困境.&lt;/p>
+&lt;p>好消息是, 这种能力是可以培养的. 那些被称为&amp;quot;大佬&amp;quot;的人, 比你更早开始锻炼这项能力. 他们在你提问时, 已经解决了无数问题. 你的能力与独立解决问题的努力成正比, 大佬的答案展示的是他们的能力, 而不是你的. 所以, 端正心态, 尽最大努力独立解决遇到的问题, 这对你非常重要.&lt;/p>
+&lt;p>对于经常&lt;strong>帮助他人&lt;/strong>的同学.&lt;/p>
+&lt;p>你或许在帮助同学时获得成就感, 但这也可能剥夺了他们受训练的机会. 网络空间安全任何方向的精进学习都需要长期的专业训练. 因此, 在帮助同学时, 尽量引导他们自己查资料、看手册、看代码, 并提出自己的思考和解决方案. 这不仅有助于他们的专业成长, 也能让你们共同进步. 学习本身需要付出, 如果问题的答案太容易获得, 他们就无法从中得到应有的训练.&lt;/p>
+&lt;/div>
+&lt;/details>
+&lt;h2 id="tools">Tools&lt;/h2>
+&lt;p>实验过程中需要你进行信息检索, 推荐使用 Bing 进行. 同时, 你会使用到 Python 的 Crypto 库和 gmpy2 库, 请完成安装.&lt;/p>
+&lt;h2 id="challenges">Challenges&lt;/h2>
+&lt;h3 id="chal1-套娃">Chal1. 套娃&lt;/h3>
+&lt;ul>
+&lt;li>本题共 3 个 flag&lt;/li>
+&lt;li>flag 形式均为：&lt;code>'flag{[0-9A-Za-z=_]*}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>新佛曰：諸隸僧降冥吽諸陀摩隸僧缽冥薩願耨咤陀願羅咤喃迦祗蜜耨阿嚤僧喼所聞薩闍嚩聞念須亦心耨冥心阿冥聞慧蜜咤冥心念訶冥嚩冥聞冥念降咤冥劫耨降寂願慧般祗闍隸冥修阿闍莊陀冥莊冥劫莊嚴冥宣隸阿摩嚩蜜心咒冥闍我須咒慧冥闍諦羅迦聞慧婆劫嘚慧咒迦慧慧我慧冥闍念劫嘇隸蜜祗伏嚤慧咒修缽聞色祗冥闍僧嘚迦降阿莊冥慧聞蜜降咤寂波嘇塞薩如囑&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="chal2-ezrsa">Chal2. ezRSA&lt;/h3>
+&lt;ul>
+&lt;li>本题共 1 个 flag&lt;/li>
+&lt;li>flag 形式为：&lt;code>'flag{[0-9A-Za-z=_]*}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">Crypto.Util.number&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">getPrime&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">bytes_to_long&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">gmpy2&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">is_prime&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">invert&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">typing&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Tuple&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">secert&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">flag&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">gen_rsa_param&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="n">Tuple&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">]:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;Generate usable RSA parameters.
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> params:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> None
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> return:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> a tuple, including `p, q, n, e, d`
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">p&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">getPrime&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">256&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">q&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">p&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">q&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">is_prime&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">q&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">break&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">p&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">q&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">n&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">p&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">q&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">phi_n&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">p&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">q&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">e&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mh">0x10001&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">d&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">invert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">phi_n&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">p&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">q&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">rsa_encrypt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">m&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">str&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="nb">str&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;Generate usable RSA parameters.
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> params:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> m: message to be encrypted
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> args: RSA parameters
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> return:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> a string, which is the encrypted message
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="mi">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">p&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">q&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">args&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">m&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">bytes_to_long&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">m&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">c&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">pow&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">m&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">c&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">params&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">gen_rsa_param&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">rsa_encrypt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">flag&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">params&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">params&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 5796768148637887491255587039409951397511832995737366433505141785703232675749200657380232851343254281355390391562734825283953711907092653161783752372166386&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 7948512242985881433771203281939490726039994357587772712416312873824297606161653053722572268861029945737411249803561023517431875922105282741637330609169129&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>2023 Cryptography Summer Camp</title><link>https://example.com/event/2306-crypto-summer-camp/</link><pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate><guid>https://example.com/event/2306-crypto-summer-camp/</guid><description>&lt;p>本项目为面向上海大学网络空间安全专业本科生（2020级、2021级）的暑期实训课程。
+内容包括：&lt;/p>
+&lt;ol>
+&lt;li>密码和编码&lt;/li>
+&lt;li>近世代数和数论&lt;/li>
+&lt;li>非对称密码&lt;/li>
+&lt;li>Challenges&lt;/li>
+&lt;/ol>
+&lt;h2 id="repository">Repository&lt;/h2>
+&lt;p>本课程相关材料均已在 &lt;a href="https://github.com/LuminolT/security-summercamp" target="_blank" rel="noopener">GitHub-LuminolT/security-summercamp&lt;/a> 备份。&lt;/p>
+&lt;h2 id="challenges">Challenges&lt;/h2>
+&lt;h3 id="chal1-套娃">Chal1. 套娃&lt;/h3>
+&lt;ul>
+&lt;li>本题共 3 个 flag&lt;/li>
+&lt;li>flag 形式均为：&lt;code>'flag{[0-9A-Za-z=_]*}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>新佛曰：諸隸僧降冥吽諸陀摩隸僧缽冥薩願耨咤陀願羅咤喃迦祗蜜耨阿嚤僧喼所聞薩闍嚩聞念須亦心耨冥心阿冥聞慧蜜咤冥心念訶冥嚩冥聞冥念降咤冥劫耨降寂願慧般祗闍隸冥修阿闍莊陀冥莊冥劫莊嚴冥宣隸阿摩嚩蜜心咒冥闍我須咒慧冥闍諦羅迦聞慧婆劫嘚慧咒迦慧慧我慧冥闍念劫嘇隸蜜祗伏嚤慧咒修缽聞色祗冥闍僧嘚迦降阿莊冥慧聞蜜降咤寂波嘇塞薩如囑&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="chal2-ezrsa">Chal2. ezRSA&lt;/h3>
+&lt;ul>
+&lt;li>本题共 1 个 flag&lt;/li>
+&lt;li>flag 形式为：&lt;code>'flag{[0-9A-Za-z=_]*}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">Crypto.Util.number&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">getPrime&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">bytes_to_long&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">gmpy2&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">is_prime&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">invert&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">typing&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Tuple&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">secert&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">flag&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">gen_rsa_param&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="n">Tuple&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">]:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;Generate usable RSA parameters.
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> params:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> None
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> return:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> a tuple, including `p, q, n, e, d`
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">p&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">getPrime&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">256&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">q&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">p&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">while&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">q&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">is_prime&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">q&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">break&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="n">p&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">q&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">n&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">p&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">q&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">phi_n&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">p&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">q&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">e&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mh">0x10001&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">d&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">invert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">phi_n&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">p&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">q&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">rsa_encrypt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">m&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">str&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="nb">str&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;Generate usable RSA parameters.
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> params:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> m: message to be encrypted
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> args: RSA parameters
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> return:
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> a string, which is the encrypted message
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2"> &amp;#34;&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="mi">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">p&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">q&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">d&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">args&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">m&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">bytes_to_long&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">m&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">c&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">pow&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">m&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">e&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">c&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">params&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">gen_rsa_param&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">rsa_encrypt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">flag&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">params&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">params&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 5796768148637887491255587039409951397511832995737366433505141785703232675749200657380232851343254281355390391562734825283953711907092653161783752372166386&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 7948512242985881433771203281939490726039994357587772712416312873824297606161653053722572268861029945737411249803561023517431875922105282741637330609169129&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>An Brief Introduction to Cryptography</title><link>https://example.com/post/2206-intro-to-cryptography/</link><pubDate>Tue, 21 Jun 2022 18:52:53 +0800</pubDate><guid>https://example.com/post/2206-intro-to-cryptography/</guid><description>&lt;h2 id="什么是密码学">什么是密码学？&lt;/h2>
+&lt;p>密码学是数学和计算机科学的交叉学科。在国内一般作为
+信息安全专业的必修课程。密码学的开端是Shannon在1945年发表的《Communication Theory of Secrecy Systems》而在这之前，密码更像是一种技艺（Art）而非一种科学技术（Technique）。&lt;/p>
+&lt;blockquote>
+&lt;p>You can check the &lt;a href="https://zh.wikipedia.org/wiki/%E5%AF%86%E7%A0%81%E5%AD%A6" target="_blank" rel="noopener">Wiki Page&lt;/a> for more information.&lt;/p>
+&lt;/blockquote>
+&lt;p>按照Shannon理论，密码学可分为两个阶段：&lt;/p>
+&lt;ul>
+&lt;li>古典密码学：基于巧妙构造形成的Art&lt;/li>
+&lt;li>现代密码学：基于数学原理形成的Technique&lt;/li>
+&lt;/ul>
+&lt;h2 id="古典密码学">古典密码学&lt;/h2>
+&lt;p>一种比较有趣的，并且能在影视剧中看到的古典密码叫做滚筒密码。滚筒密码的加密原理就是双方规定好木棍的直径，写信人把腰带绑在木棍上书写，在收信人收到信之后，只需要把腰带绑到相同规格的木棍上就能还原信的内容。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://nic.sdufe.edu.cn/__local/3/B1/28/67F57C5431D87E41BCC727F9364_90183162_2CDE.jpg" alt="滚筒密码" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>如果用现代密码学的语言去描述，信件的内容即为明文，通过滚筒写出来的纸片就是明文，而密钥就是那根木棍。&lt;/p>
+&lt;p>而实质上我们可以发现，我们是在对一个字符串间隔取字符：
+例如对串：&lt;code>Hello-Crypto!&lt;/code>，我们把他写在正四棱柱形成的纸带上，就可以获得：&lt;code>Hoy!e-plCtlro&lt;/code>，而这和隔4个字符1取的操作是一样的，我们可以给出一个形式化的代码实现：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">encrypt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">msg&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">string&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">key&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="n">string&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="n">splitted_str&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;&amp;#39;&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">_&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="nb">range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">key&lt;/span>&lt;span class="p">)]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="nb">iter&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">ch&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">msg&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="n">splitted_str&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nb">iter&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">append&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ch&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="nb">iter&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="n">cipher&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">...&lt;/span> &lt;span class="n">cipher&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">splitted_str&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span class="n">encrypt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;Hello-Crypto!&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">&amp;#39;Hoy!e-plCtlro&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>而事实上，这就是一个栅栏密码，你可以在&lt;a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php" target="_blank" rel="noopener">这个网站&lt;/a>上尝试。&lt;/p>
+&lt;blockquote>
+&lt;p>解密过程偷懒不写啦，聪明如你一定能自己figure out!&lt;/p>
+&lt;/blockquote>
+&lt;p>而这就是古典密码学从最原始的的阶段，步入了近现代的阶段。从一些工具的使用，变成了算数。在此基础上形成了大量的替换密码（如Caesar密码、Vigenère密码）。&lt;/p>
+&lt;blockquote>
+&lt;p>事实上computer最早的含义是计算员，大多都是一些熟练算术技巧的人来破译密码的，而我们熟知的Alan Turing事实上在二战时也是负责这个工作。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="现代密码学">现代密码学&lt;/h2>
+&lt;p>现代密码学的开端是Shannon的那篇文章，其中提出了一个重要的概念，完美安全性（Perfect Security）。完美安全性的形式化定义用到了概率论的知识，因此此处不展开。我们仅对其产生的原因进行一些阐述。&lt;/p>
+&lt;p>古典密码在当时基本全都被破解了，密码欠缺一个正式的、准确的定义去衡量证明一个密码方案是否具有严格的安全性，因此Shannon理论应运而生。&lt;/p>
+&lt;p>一个密码体系保证完美安全性，当其加密后的密文不会透露任何关于明文的信息。而在这种定义下，即使攻击者拥有无穷的算力，也不能被破解。&lt;/p>
+&lt;blockquote>
+&lt;p>😮注意，是无穷的算力！&lt;/p>
+&lt;/blockquote>
+&lt;p>但是根据Shannon的推论，一个保证完美安全性的密码体系，其密钥空间一定大于明文空间。也就是说，我的密钥不会比明文更短。而我们可以思考，如果有一个信道，可以安全的用于传输密钥，为什么不直接拿来传输明文呢？因此目前的密码体系都&lt;strong>不保证&lt;/strong>完美安全性。&lt;/p>
+&lt;p>而在这基础上，就催生了流密码和分块密码，他们被统称为对称密码学。总的来说，对称密码学致力于让短密钥经过一些神奇的操作，也可以发挥和长密钥相同的作用：&lt;/p>
+&lt;ul>
+&lt;li>流密码：通过随机数生成器序列，生成长密钥&lt;/li>
+&lt;li>分块密码：通过对明文分块，逐一用短密钥加密&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>此处是非常不严谨的表达，仅作为理解&lt;/p>
+&lt;/blockquote>
+&lt;p>而与之对应的，是非对称密码学（又称为公钥密码学），该类密码体系的特点是拥有公钥和私钥两个密钥，他们往往基于数学上的难题进行规约：&lt;/p>
+&lt;ul>
+&lt;li>RSA：大数质因数分解难题&lt;/li>
+&lt;li>ElGamal：模乘群上的离散对数问题&lt;/li>
+&lt;li>ECC-ElGamal：椭圆曲线加法群上的离散对数问题&lt;/li>
+&lt;/ul>
+&lt;p>一个简单的例子是，给定两个大质数 $p, q$ ，给你他们的乘积 $N = pq$ ，你是很难分别求解出 $p$ 和 $q$ 的。&lt;/p>
+&lt;blockquote>
+&lt;p>😈试试吧！N = 115157048927615167000080222307830600550443405087336034834570254657109854848846966155326673813367130632850579378687042597345617010423842872052308839845927421052730005967200985762648016655477422221735535543563770813175765249421783025141172284969133662823566566070113584080582203941254237438639149018559749238997&lt;/p>
+&lt;/blockquote>
+&lt;p>而这种数学上的难解特性就可以被利用，构造密码体系。&lt;/p>
+&lt;blockquote>
+&lt;p>具体需要一些数论和抽象代数的知识，这里就不展开啦~&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="小结">小结&lt;/h2>
+&lt;p>事实上，上面两个问题都只解决了数据隐秘性的保护，不一定能够保证数据仍是完整的、未被篡改过的。而这就需要更多的知识，包括：&lt;/p>
+&lt;ul>
+&lt;li>消息认证码&lt;/li>
+&lt;li>数字签名&lt;/li>
+&lt;/ul>
+&lt;p>而目前随着量子计算机的出现，Shor算法已经从理论上证明了能够在多项式时间内攻破目前常见的密码体系，于是又有了一些后量子密码学的研究：&lt;/p>
+&lt;ul>
+&lt;li>格密码学&lt;/li>
+&lt;li>编码密码学&lt;/li>
+&lt;/ul>
+&lt;p>当然还有一些和其他方向的交叉，如：&lt;/p>
+&lt;ul>
+&lt;li>区块链（散列和共识机制）&lt;/li>
+&lt;li>安全多方计算（联邦学习）&lt;/li>
+&lt;li>零知识证明&lt;/li>
+&lt;/ul>
+&lt;h2 id="学习路线">学习路线&lt;/h2>
+&lt;p>笔者的学习路线是：密码基础-数学基础-现代密码学，比较诡异，下面整理一下比较正常的路线：&lt;/p>
+&lt;ol>
+&lt;li>数学基础：离散数学、数论、近世代数、概率论&lt;/li>
+&lt;li>古典密码学：了解代换密码&lt;/li>
+&lt;li>对称密码学：流密码、对称密码、PRG、PRF&lt;/li>
+&lt;li>非对称密码学：Diffie-Hellman密钥交换、陷门函数、RSA、ElGamal、同态加密&lt;/li>
+&lt;li>应用密码学：哈希函数、消息认证码、数字签名&lt;/li>
+&lt;/ol>
+&lt;p>推荐一些书目：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.cs.umd.edu/~jkatz/imc.html#:~:text=Introduction%20to%20Modern%20Cryptography%20is%20an%20introductory-level%20treatment,without%20sacrificing%20rigor%20or%20an%20emphasis%20on%20foundations." target="_blank" rel="noopener">Introduction to Modern Cryptography&lt;/a>, Jonathan Katz and Yehuda Lindell&lt;/li>
+&lt;li>初等数论, 潘承洞、潘承彪&lt;/li>
+&lt;li>抽象代数学, 姚慕生&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | LuminolT</title><link>https://luminolt.cn/post/</link><atom:link href="https://luminolt.cn/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jun 2022 18:52:53 +0800</lastBuildDate><image><url>https://luminolt.cn/media/icon_hu1463231102154380852.png</url><title>Posts</title><link>https://luminolt.cn/post/</link></image><item><title>(CN) An Breif Introduction to Cryptography</title><link>https://luminolt.cn/post/2206-intro-to-cryptography/</link><pubDate>Tue, 21 Jun 2022 18:52:53 +0800</pubDate><guid>https://luminolt.cn/post/2206-intro-to-cryptography/</guid><description>&lt;h2 id="什么是密码学">什么是密码学？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Hugo Academic CV Theme</title><link>https://example.com/post/</link><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jun 2022 18:52:53 +0800</lastBuildDate><image><url>https://example.com/media/icon_hu7729264130191091259.png</url><title>Blog</title><link>https://example.com/post/</link></image><item><title>An Brief Introduction to Cryptography</title><link>https://example.com/post/2206-intro-to-cryptography/</link><pubDate>Tue, 21 Jun 2022 18:52:53 +0800</pubDate><guid>https://example.com/post/2206-intro-to-cryptography/</guid><description>&lt;h2 id="什么是密码学">什么是密码学？&lt;/h2>
 &lt;p>密码学是数学和计算机科学的交叉学科。在国内一般作为
 信息安全专业的必修课程。密码学的开端是Shannon在1945年发表的《Communication Theory of Secrecy Systems》而在这之前，密码更像是一种技艺（Art）而非一种科学技术（Technique）。&lt;/p>
 &lt;blockquote>
@@ -13,7 +13,7 @@
 &lt;p>一种比较有趣的，并且能在影视剧中看到的古典密码叫做滚筒密码。滚筒密码的加密原理就是双方规定好木棍的直径，写信人把腰带绑在木棍上书写，在收信人收到信之后，只需要把腰带绑到相同规格的木棍上就能还原信的内容。&lt;/p>
 &lt;p>
 &lt;figure >
-&lt;div class="d-flex justify-content-center">
+&lt;div class="flex justify-center ">
 &lt;div class="w-100" >&lt;img src="https://nic.sdufe.edu.cn/__local/3/B1/28/67F57C5431D87E41BCC727F9364_90183162_2CDE.jpg" alt="滚筒密码" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
