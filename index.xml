@@ -285,22 +285,22 @@ Add the publication's **full text** or **supplementary notes** here. You can use
 &lt;/ul></description></item><item><title>Friends</title><link>https://luminolt.cn/friends/</link><pubDate>Fri, 17 Jun 2022 00:30:31 +0800</pubDate><guid>https://luminolt.cn/friends/</guid><description>&lt;style type="text/css">
 .myfriends {
 text-align: left;
-background-color: #fff;
+/* background-color: #fff; */
 opacity: 0.9;
 }
 .myfriends a {
-color: black;
+/* color: black; */
 }
 .myfriends p {
 display: block; /* 确保文本显示 */
 font-size: 14px; /* 调整字体大小 */
-color: #666; /* 设置字体颜色为灰色 */
+/* color: #666; 设置字体颜色为灰色 */
 margin: 0; /* 移除多余的上下边距 */
 line-height: 1.5; /* 调整行高，确保排版优美 */
 }
 .friendurl {
 text-decoration: none !important;
-color: black;
+/* color: black; */
 }
 .myfriend {
 width: 56px !important;
@@ -364,7 +364,10 @@ margin-top: 10px; /* 保持上下间距 */
 const friends = [
 { name: "Chasing", url: "https://chasing1020.github.io/", logo: "https://avatars.githubusercontent.com/chasing1020", word: "Why there is a universe?" },
 { name: "Shaosy", url: "https://siyangshao.github.io/", logo: "https://siyangshao.github.io/images/avatar.jpg", word: "Student in NTUsg" },
-{ name: "JamesNULLiu", url: "https://jamesnulliu.github.io/", logo: "https://jamesnulliu.github.io/imgs/me/myself.jpg", word: "Student in SHU" },
+{ name: "JamesNULLiu",
+url: "https://jamesnulliu.github.io/",
+logo: "https://jamesnulliu.github.io/imgs/me/myself.jpg",
+word: "吾常见笑于大方之家 - 秋水" },
 ];
 const container = document.getElementById("friends-list");
 friends.forEach(friend => {
