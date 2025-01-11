@@ -282,4 +282,106 @@ Add the publication's **full text** or **supplementary notes** here. You can use
 &lt;li>&lt;a href="http://www.cs.umd.edu/~jkatz/imc.html#:~:text=Introduction%20to%20Modern%20Cryptography%20is%20an%20introductory-level%20treatment,without%20sacrificing%20rigor%20or%20an%20emphasis%20on%20foundations." target="_blank" rel="noopener">Introduction to Modern Cryptography&lt;/a>, Jonathan Katz and Yehuda Lindell&lt;/li>
 &lt;li>初等数论, 潘承洞、潘承彪&lt;/li>
 &lt;li>抽象代数学, 姚慕生&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Friends</title><link>https://luminolt.cn/friends/</link><pubDate>Fri, 17 Jun 2022 00:30:31 +0800</pubDate><guid>https://luminolt.cn/friends/</guid><description>&lt;style type="text/css">
+.myfriends {
+text-align: left;
+background-color: #fff;
+opacity: 0.9;
+}
+.myfriends a {
+color: black;
+}
+.myfriends p {
+display: block; /* 确保文本显示 */
+font-size: 14px; /* 调整字体大小 */
+color: #666; /* 设置字体颜色为灰色 */
+margin: 0; /* 移除多余的上下边距 */
+line-height: 1.5; /* 调整行高，确保排版优美 */
+}
+.friendurl {
+text-decoration: none !important;
+color: black;
+}
+.myfriend {
+width: 56px !important;
+height: 56px !important;
+border-radius: 50%;
+border: 1px solid #ddd;
+padding: 2px;
+box-shadow: 1px 1px 1px rgba(0,0,0, .15);
+margin-top: 14px !important;
+margin-left: 14px !important;
+background-color: #fff;
+}
+.frienddiv {
+height: 92px;
+margin-top: 10px;
+width: 48%;
+display: inline-block !important;
+}
+.frienddiv:hover {
+background: rgba(87, 142, 224, 0.15);
+}
+.frienddiv:hover .frienddivleft img {
+transition: .9s!important;
+-webkit-transition: .9s!important;
+-moz-transition: .9s!important;
+-o-transition: .9s!important;
+-ms-transition: .9s!important;
+transform: rotate(360deg)!important;
+-webkit-transform: rotate(360deg)!important;
+-moz-transform: rotate(360deg)!important;
+-o-transform: rotate(360deg)!important;
+-ms-transform: rotate(360deg)!important;
+}
+.frienddivleft {
+width: 92px;
+float: left;
+}
+.frienddivleft {
+margin-right: 2px;
+}
+.frienddivright {
+margin-top: 18px;
+margin-right: 18px;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+text-align: left;
+}
+@media (max-width: 768px) { /* 针对屏幕宽度小于 768px（手机端）的样式 */
+.frienddiv {
+width: 100%; /* 每个卡片宽度调整为占据整行 */
+display: block; /* 移除 inline-block，改为块级元素 */
+height: auto; /* 自动调整高度 */
+margin-top: 10px; /* 保持上下间距 */
+}
+}
+&lt;/style>
+&lt;p>The following links are from my friends, you can check their personal page 😊😊.&lt;/p>
+&lt;div class="myfriends" id="friends-list">&lt;/div>
+&lt;script>
+const friends = [
+{ name: "Chasing", url: "https://chasing1020.github.io/", logo: "https://avatars.githubusercontent.com/chasing1020", word: "Why there is a universe?" },
+{ name: "Shaosy", url: "https://siyangshao.github.io/", logo: "https://siyangshao.github.io/images/avatar.jpg", word: "Student in NTUsg" },
+{ name: "JamesNULLiu", url: "https://jamesnulliu.github.io/", logo: "https://jamesnulliu.github.io/imgs/me/myself.jpg", word: "Student in SHU" },
+];
+const container = document.getElementById("friends-list");
+friends.forEach(friend => {
+const html = `
+&lt;div class="frienddiv">
+&lt;div class="frienddivleft">
+&lt;a href="${friend.url}" class="friendurl" target="_blank">
+&lt;img src="${friend.logo}" alt="${friend.name}" class="myfriend">
+&lt;/a>
+&lt;/div>
+&lt;div class="frienddivright">
+&lt;a href="${friend.url}" class="friendurl" target="_blank">${friend.name}&lt;/a>
+&lt;p>${friend.word}&lt;/p>
+&lt;/div>
+&lt;/div>
+`;
+container.innerHTML += html;
+});
+&lt;/script>
+&lt;hr></description></item></channel></rss>
